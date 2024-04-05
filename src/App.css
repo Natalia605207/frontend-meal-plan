@@ -1,0 +1,163 @@
+body {
+  background: url("./assets//back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+.cover {
+  background-color: rgba(28,3,3,0.5);
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 70%;
+}
+
+h1 {
+  color: #FFF8F0;
+  font-size: 60px;
+  text-shadow: 2px 2px 15px #000;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.subheading {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color:#ffbc55;
+  text-shadow: 2px 2px 15px #000;
+  margin: 0px 0px 70px;
+  padding: 0px;
+  text-align: center;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #FFF8F0;
+  margin-bottom: 50px;
+}
+
+.inputArea {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: #005248;
+  background-color: #FFF8F0;
+  font-family: "Merriweather", serif;
+}
+
+.cta {
+  font-size: 17px;
+  color:#ffffff;
+  text-shadow: 2px 2px 10px #000;
+  padding: 10px 40px;
+  background-color: #ffbc55;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+  font-family: "Merriweather", serif;
+}
+
+.cta:hover {
+  background-color: #A7B450;
+  color: #005248;
+  text-shadow: none;
+}
+
+.meal-line {
+  display: flex;
+  align-items: center;
+  padding: 0px 15px;
+  margin: 10px 0px;
+  background: linear-gradient(90deg, rgba(255,188,85,1) 27%, rgba(195,180,65,1) 58%, rgba(135,167,64,1) 100%);
+  color:#005248;
+  border-radius: 5px;
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  margin-left: 11px;
+}
+
+.added-meal {
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  margin: 13px 0px;
+}
+
+.btn {
+  font-size: 22px;
+  transition: all 0.3s ease-in-out;
+}
+
+.edit {
+  margin-right: 7px;
+}
+
+.edit:hover {
+  color: #522600
+}
+
+.delete:hover {
+  color: #C25450;
+}
+
+.avocado-icon {
+  width: 25px;
+  margin-right: 10px;
+}
+
+@media all and (max-width: 540px) {
+  .main-box {
+    width: 87%;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+  
+  .subheading {
+    font-size: 21px;
+    margin: 0px 0px 50px;
+  }
+
+  .input-box {
+    margin-bottom: 30px;
+  }
+  
+  .inputArea {
+    padding: 7px 10px;
+    font-size: 17px;
+  }
+  
+  .cta {
+    padding: 10px 25px;
+  }
+
+  .meal-line {
+    padding: 0px 10px;
+    margin: 7px 0px;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+}
