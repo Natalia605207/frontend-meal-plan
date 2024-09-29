@@ -125,6 +125,20 @@ h1 {
   margin-right: 10px;
 }
 
+.my-link, .portfolio {
+  color:#ffffff;
+}
+
+.my-link {
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.portfolio:hover {
+  color:#ffbc55;
+  text-shadow: 2px 2px 15px #000;
+}
+
 @media all and (max-width: 540px) {
   .main-box {
     width: 87%;
