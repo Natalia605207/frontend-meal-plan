@@ -3,6 +3,7 @@ import './App.css';
 import { MyMeals } from './MyMeals';
 import { addMeal, getAllMeals, editMeal, deleteMeal } from './FetchMeals';
 import { gsap } from "gsap";
+import { Footer } from './Footer';
 
 function App() {
   const [myMeal, setMeal] = useState([]);
@@ -72,6 +73,7 @@ function App() {
       )}
       </div>
       </div>
+      <Footer />
     </div>
   );
 }
